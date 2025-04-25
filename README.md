@@ -134,3 +134,23 @@ git checkout branch-name
 
 This is useful when you want to work on a different branch (e.g., `feature-xyz`).
 
+
+### **What is `git clone`?**
+
+When you want to **work on a project** from GitHub, but you don’t have it on your computer yet, you can use **`git clone`** to **copy** the project from GitHub to your computer. It’s like making a **duplicate** of the project on your local machine, so you can start working on it right away.
+
+### How to Use `git clone`?
+
+1. Go to the GitHub page of the project you want to work on.
+2. Find the **"Code"** button and click it. Copy the link that appears (it will look something like `https://github.com/username/repository-name.git`).
+3. Open your **terminal** (a command line window) on your computer and type this:
+
+```bash
+git clone https://github.com/username/repository-name.git
+```
+
+Replace the link with the one you copied from GitHub.
+Now, you have the project on your computer, and you can start working on it!
+
+
+
