@@ -114,3 +114,23 @@ After you do this once, you can just run:
 ```bash
 git push
 ```
+
+### 📝 **1. Always Pull Before Pushing**
+Before pushing your changes, **always pull** the latest changes from GitHub to make sure you’re not missing anything from other people.
+
+```bash
+git pull origin main
+```
+
+If you're working on a branch other than `main`, replace `main` with your branch name.
+
+
+### 🔄 **2. Switching Branches**
+You can switch between branches with this:
+
+```bash
+git checkout branch-name
+```
+
+This is useful when you want to work on a different branch (e.g., `feature-xyz`).
+
