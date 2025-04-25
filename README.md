@@ -19,17 +19,19 @@ Because:
 **🛠️ Getting Started**
 Before using Git, tell it who you are:
 
+```bash
 git config --global user.name "Your Name"
 git config --global user.email "your@email.com"
-
+```
 
 **📁 Step 1: Make a New Project (Repository)**
 Think of a "repo" like a folder that Git watches.
 
+```bash
 mkdir my-project         # Make a folder
 cd my-project            # Go into that folder
 git init                 # Tell Git to start watching this folder
-
+```
 
 **🌍 Step 2: Connect to GitHub**
 GitHub is like a home for your code on the internet.
@@ -45,38 +47,43 @@ git remote add origin https://github.com/yourname/my-first-repo.git
 
 **🌿 Step 3: Make a New Branch (Like a Playground)**
 
+```bash
 git checkout -b my-branch-name
+```
 
 This makes a copy of your project so you can try new things without messing up the original.
 
 **💾 Step 4: Save and Share Your Work**
 1. Stage your work (tell Git what to save):
 
+```bash
 git add .
-
+```
 
 2. Save it (commit):
 
+```bash
 git commit -m "I made some changes"
-
+```
 
 3. Send it to GitHub:
 
+```bash
 git push origin my-branch-name
+```
 
 **🔄 Step 5: Get the Latest Changes**
 If someone else made updates, grab them:
 
+```bash
 git pull origin main
-
+```
 
 🧹 Other Helpful Stuff
 - `git status` – shows what changed
 - `git log` – shows a list of saves (commits)
 - `git checkout main` – go back to the main version
 - `git merge my-branch` – mix your branch into the main project
-
-Absolutely! Here's an even simpler version of the explanation:
 
 
 **📂 Pushing a New Branch to GitHub (First Time)**
@@ -88,10 +95,11 @@ But before you can do that, you need to **tell Git** where to send this branch o
 ### How to Do It:
 Run this command the **first time** you push your new branch:
 
+```bash
 git push --set-upstream origin new-feature
  or
 git push -u origin new-feature
-
+```
 
 ### What Does This Do?
 - **push**: Sends your branch to GitHub
@@ -100,5 +108,7 @@ git push -u origin new-feature
 - **`new-feature`**: The name of your branch
 
 After you do this once, you can just run:
-git push
 
+```bash
+git push
+```
