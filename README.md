@@ -43,7 +43,9 @@ GitHub is like a home for your code on the internet.
 
 Now connect your computer to GitHub:
 
+```bash
 git remote add origin https://github.com/yourname/my-first-repo.git
+```
 
 **🌿 Step 3: Make a New Branch (Like a Playground)**
 
